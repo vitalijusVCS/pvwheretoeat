@@ -68,6 +68,11 @@ header {
 	padding-left: 10px;
 	cursor: pointer;
 }
+.surasti p:hover{
+	-webkit-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
+-moz-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
+box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
+}
 .vtitle h1,h2{
 	text-shadow:
 		-0   -2px 1px #000000,

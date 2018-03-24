@@ -43,6 +43,31 @@ header {
 .vtitle, .vsearch {
 	text-align: center;
 }
+.vsearch input{
+	width: 350px;
+  height: 30px;
+  border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border: none;
+}
+.surasti{
+	display: flex;
+	align-items: center;
+}
+.vsearch p{
+	background-color: #3C3C3C;
+	color: white;
+	height: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+}
 .vtitle h1,h2{
 	text-shadow:
 		-0   -2px 1px #000000,
@@ -78,6 +103,8 @@ header {
 
 .vsearch {
 	padding-top: 160px;
+	display: flex;
+	justify-content: center;
 }
 
 .vsearchcontainer {

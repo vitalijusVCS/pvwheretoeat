@@ -1,3 +1,6 @@
+ul {
+	list-style: none;
+}
 body {
 	margin: 0;
 }
@@ -40,6 +43,33 @@ header {
 .vtitle, .vsearch {
 	text-align: center;
 }
+.vtitle h1,h2{
+	text-shadow:
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
 
 .vtitle {
 	color: white;
@@ -54,4 +84,25 @@ header {
 	background-image: url('assets/images/back.jpg');
 	background-size: 100% 100%;
 	height: 500px;
+}
+.pbest-food img{
+	width: 100%;
+}
+.pbest-food{
+	padding: 0px 50px;
+}
+.pdiscription {
+	display: flex;
+	justify-content: space-between;
+
+}
+.pnearest-food ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+.pnearest-food li{
+	width: 300px;
 }

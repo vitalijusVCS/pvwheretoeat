@@ -69,7 +69,7 @@ header {
 	cursor: pointer;
 }
 .surasti p:hover{
-	-webkit-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
+-webkit-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 -moz-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 }
@@ -116,9 +116,11 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	background-image: url('assets/images/back.jpg');
 	background-size: 100% 100%;
 	height: 500px;
+	box-shadow: 1px 5px 18px -5px black;
 }
 .pbest-food img{
 	width: 100%;
+	box-shadow: 1px 5px 18px -5px black;
 }
 .pbest-food{
 	padding: 0px 50px;

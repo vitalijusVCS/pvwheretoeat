@@ -2,3 +2,56 @@ body {
 	margin: 0;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+.vtopmenu {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	margin-top: 25px;
+	list-style: none;
+	color: #04c1dd;
+}
+
+.vlogocontainer {
+	width: 110px;
+}
+
+.vlogocontainer img {
+	width: 100%;
+}
+
+.vtopmenu li {
+	cursor: pointer;
+	font-family: 'Gruen Lemonograf';
+	font-size: 20px;
+}
+
+.vtopmenu li:hover {
+	border: solid 0.5px #04c1dd;
+	border-radius: 12px;
+	padding: 0 7px;
+}
+
+.vtitle, .vsearch {
+	text-align: center;
+}
+
+.vtitle {
+	color: white;
+	padding-top: 150px;
+}
+
+.vsearch {
+	padding-top: 160px;
+}
+
+.vsearchcontainer {
+	background-image: url('assets/images/back.jpg');
+	background-size: 100% 100%;
+	height: 500px;
+}

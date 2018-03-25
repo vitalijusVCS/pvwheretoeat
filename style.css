@@ -9,6 +9,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 50px;
+	position: fixed;
+  background-color: white;
+  width: 100%;
+	box-shadow: 1px 5px 18px -5px black;
 }
 
 .vtopmenu {
@@ -69,6 +73,7 @@ header {
 	cursor: pointer;
 }
 .surasti p:hover{
+	transition: 0.3s;
 -webkit-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 -moz-box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
@@ -118,11 +123,13 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	height: 500px;
 	box-shadow: 1px 5px 18px -5px black;
 }
-.pbest-food img{
+.pbest-food img,
+.main-news img{
 	width: 100%;
 	box-shadow: 1px 5px 18px -5px black;
 }
-.pbest-food{
+.pbest-food,
+.news-pcontainer{
 	padding: 0px 50px;
 }
 .pdiscription {
@@ -130,13 +137,23 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	justify-content: space-between;
 
 }
-.pnearest-food ul{
+.pnearest-food ul,
+.main-news ul{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 0;
 	margin: 0;
 }
-.pnearest-food li{
+.pnearest-food li,
+.main-news li{
 	width: 300px;
+}
+.main-news li{
+	padding: 6px;
+}
+.news-pcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }

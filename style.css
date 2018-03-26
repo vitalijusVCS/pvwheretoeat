@@ -306,4 +306,25 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 }
 .footer-pcontainer {
 	padding: 0 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-pcontainer div{
+	width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#one {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pnaujienlaiskis input{
+	font-size: 25px;
+}
+.pnaujienlaiskis button {
+	width: 100%;
+	border: none;
+	margin-top: 5px;
+	padding: 3px;
 }

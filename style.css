@@ -27,7 +27,7 @@ header {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-  
+
 }
 #scrolling:hover {
     background-color: #555;
@@ -195,6 +195,12 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 .news-pcontainer h3{
 	color: white;
 	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #C8102E;
+  padding-bottom: 5px;
+}
+.map h3{
+	text-align: center;
 }
 
 
@@ -217,7 +223,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	flex-wrap: wrap;
 	justify-content: space-between;
 	justify-content: space-around;
-	background: linear-gradient(to top, #fefcea, #787b58);
+	background: linear-gradient(to top, #d6d6d3, #787b58);
 
 }
 

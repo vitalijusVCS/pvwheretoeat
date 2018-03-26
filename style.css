@@ -8,14 +8,13 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 50px;
 	position: fixed;
-  background-color: white;
-  width: 100%;
+  	background-color: white;
+ 	width: 100%;
 	box-shadow: 1px 5px 18px -5px black;
 }
 .vtopmenucontainer{
-	padding: 0 80px;
+	padding-right: 50px;
 }
 .vtopmenu {
 	display: flex;
@@ -28,6 +27,7 @@ header {
 
 .vlogocontainer {
 	width: 110px;
+	padding-left: 50px;
 }
 
 .vlogocontainer img {
@@ -185,6 +185,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 .vbigone {
 	width: 600px;
 	height: 440px;
+	margin-left: 0;
 } 
 
 .vbigone img {
@@ -222,4 +223,8 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 
 #ggg .vtopcontainer #vfirst {
 	order: 2;
+}
+
+#vfirst {
+	margin-left: 8px;
 }

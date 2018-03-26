@@ -8,14 +8,13 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 50px;
 	position: fixed;
-  background-color: white;
-  width: 100%;
+  	background-color: white;
+ 	width: 100%;
 	box-shadow: 1px 5px 18px -5px black;
 }
 .vtopmenucontainer{
-	padding: 0 80px;
+	padding-right: 50px;
 }
 .vtopmenu {
 	display: flex;
@@ -28,6 +27,7 @@ header {
 
 .vlogocontainer {
 	width: 110px;
+	padding-left: 50px;
 }
 
 .vlogocontainer img {
@@ -51,14 +51,16 @@ header {
 }
 .vsearch input{
 	width: 350px;
-  height: 30px;
-  border-top-left-radius: 15px;
+	height: 30px;
+	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border: none;
 }
 .surasti{
 	display: flex;
 	align-items: center;
+	font-family: 'Gruen Lemonograf';
+	font-size: 25px;
 }
 .vsearch p{
 	background-color: #3C3C3C;
@@ -113,8 +115,12 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	padding-top: 150px;
 }
 
+.vtitle h1 {
+	font-size: 40px;
+}
+
 .vsearch {
-	padding-top: 160px;
+	padding-top: 110px;
 	display: flex;
 	justify-content: center;
 }
@@ -125,22 +131,20 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	height: 500px;
 	box-shadow: 1px 5px 18px -5px black;
 }
-.pbest-food img,
+
 .main-news img{
 	width: 100%;
 	box-shadow: 1px 5px 18px -5px black;
 }
-.pbest-food,
+
 .news-pcontainer{
 	padding: 0px 50px;
 }
 
 .pdiscription {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	text-align: center;
 }
-.pnearest-food ul,
+
 .main-news ul{
 	display: flex;
 	flex-wrap: wrap;
@@ -148,7 +152,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	padding: 0;
 	margin: 0;
 }
-.pnearest-food li,
+
 .main-news li{
 	width: 300px;
 }
@@ -159,4 +163,69 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.pdiscription {
+	padding: 0 50px;
+}
+
+.vtop {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.vtop  li {
+	margin-left: 20px;
+}
+
+.vtop img {
+	width: 100%;
+}
+
+.vbigone {
+	width: 600px;
+	height: 440px;
+	margin-left: 0;
+} 
+
+.vbigone img {
+	width: 100%;
+	height: 100%;
+} 
+
+.vsmallone {
+	width: 300px;
+	height: 240px;
+}
+
+.vtopcontainer {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 50px;
+	padding-left: 30px;
+}
+
+#vshowmore  h3, #vhide h3 {
+	margin-bottom: 0;
+}
+
+#ggg {
+	display: none;
+}
+
+#vhide {
+	display: none;
+}
+
+#ggg .vtopcontainer #vsecond {
+	order: 1;
+}
+
+#ggg .vtopcontainer #vfirst {
+	order: 2;
+}
+
+#vfirst {
+	margin-left: 8px;
 }

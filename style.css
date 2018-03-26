@@ -316,6 +316,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .footer-pcontainer p, .fa{
 	color: white;
 	font-size: 20px;
@@ -324,6 +325,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 #one {
 	font-size: 20px;
 	text-transform: uppercase;
+
 }
 .icons li{
 	margin-top: 10px;
@@ -345,20 +347,29 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 .fa-twitter{
 	color: #1DA1F2;
 }
-.fa-phone, .fa-envelope, .fa-map-marker{
+.footer-info, .fa-phone, .fa-envelope, .fa-map-marker{
 	font-size: 30px!important;
 	width: 100%;
 	text-align: center;
 }
 .footer-info p {
 	text-align: center;
+	margin: 3px;
+}
+.footer-info li{
+	background-color: 1E1E1E;
 }
 .pnaujienlaiskis input{
 	font-size: 25px;
+	border: none;
 }
 .pnaujienlaiskis button {
 	width: 100%;
 	border: none;
 	margin-top: 5px;
 	padding: 3px;
+	cursor: pointer;
+}
+.pnaujienlaiskis button:hover {
+	background-color:
 }

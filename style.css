@@ -72,8 +72,8 @@ header {
 	align-items: center;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 13px;
+	padding-left: 13px;
 	cursor: pointer;
 }
 .surasti p:hover{
@@ -141,6 +141,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	padding-right: 50px;
 	padding-left: 50px;
 }
+
 .pdiscription {
 	text-align: center;
 }
@@ -159,19 +160,38 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	justify-content: space-between;
 	padding: 0;
 }
-
-.main-news li{
-	width: 300px;
+.main-news figcaption{
+	font-size: 21px;
+  padding-top: 10px;
+	color: #FFAA00;
 }
+.news-pcontainer h3{
+	color: white;
+	font-size: 20px;
+}
+
 
 .main-news {
 	width: 100%;
+}
+
+.main-news li{
+	width: 300px;
+	padding: 6px;
+	background-color: #5A5A5A
+}
+.main-news p{
+	color: white;
+
 }
 
 .news-pcontainer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	justify-content: space-around;
+	background: linear-gradient(to top, #fefcea, #787b58);
+
 }
 
 .pdiscription {
@@ -196,12 +216,12 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	width: 600px;
 	height: 440px;
 	margin-left: 0;
-} 
+}
 
 .vbigone img {
 	width: 100%;
 	height: 100%;
-} 
+}
 
 .vsmallone {
 	width: 300px;
@@ -218,7 +238,9 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 #vshowmore  h3, #vhide h3 {
 	margin-bottom: 0;
 }
-
+#vshowmore{
+	box-shadow: 1px 5px 18px -5px black;
+}
 #ggg {
 	display: none;
 }
@@ -238,6 +260,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 #vfirst {
 	margin-left: 8px;
 }
+<<<<<<< HEAD
 
 #vddd .vbigone {
 	margin-left: 0;

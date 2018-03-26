@@ -304,6 +304,9 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	width: 100%;
 	border: solid 1px #C8102E;
 }
+
+/* footer section styles */
+
 .footer-pcontainer {
 	padding: 0 50px;
 	display: flex;
@@ -311,10 +314,11 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	background-color: #3C3C3C;
 }
 .footer-pcontainer div{
-	width: 300px;
+	width: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
 .footer-pcontainer p, #two{
@@ -325,12 +329,13 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 #one {
 	font-size: 20px;
 	text-transform: uppercase;
-
+	border-bottom: 1px solid #C8102E;
 }
 .icons li{
 	margin-top: 10px;
 	color: white;
 	font-size: 20px;
+	cursor: pointer;
 }
 .icons a{
 	font-size: 35px;
@@ -352,19 +357,21 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	width: 100%;
 	text-align: center;
 }
+.footer-info ul {
+	margin-top: 35px;
+}
 .footer-info p {
 	text-align: center;
 	margin: 3px;
 }
-.footer-info li{
-	background-color: 1E1E1E;
-}
+
 .pnaujienlaiskis input{
 	font-size: 25px;
 	border: none;
+	width: 400px;
 }
 .pnaujienlaiskis button {
-	width: 100%;
+	width: 400px;
 	border: none;
 	margin-top: 5px;
 	padding: 3px;
@@ -372,4 +379,19 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 }
 .pnaujienlaiskis button:hover {
 	background-color:
+}
+.idomiausios-naujienos ul{
+	display: flex;
+}
+.idomiausios-naujienos img{
+	width: 96%;
+	cursor: pointer;
+}
+.idomiausios-naujienos p{
+	margin-left: 38px;
+	margin-bottom: 3px;
+}
+.idomiausios-naujienos figcaption{
+	color: white;
+	cursor: pointer;
 }

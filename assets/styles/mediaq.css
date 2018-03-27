@@ -2,6 +2,9 @@
   .vlogocontainer{
     padding-left: 0;
   }
+  .vtitle{
+    padding-top: 90px;
+  }
   .vsearchcontainer{
     width: 440px;
     height: 400px;

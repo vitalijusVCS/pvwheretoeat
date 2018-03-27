@@ -68,5 +68,9 @@
   .icons {
     text-align: center;
   }
+  .pnaujienlaiskis input,
+  .pnaujienlaiskis button{
+    width: 360px;
+  }
 
 }

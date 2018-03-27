@@ -206,7 +206,9 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 .map h3{
 	text-align: center;
 }
-
+.map-pcontainer{
+	padding-bottom: 10px;
+}
 
 .main-news {
 	width: 100%;
@@ -227,7 +229,8 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	flex-wrap: wrap;
 	justify-content: space-between;
 	justify-content: space-around;
-	background: linear-gradient(to top, #d6d6d3, #787b58);
+	/* background: linear-gradient(to top, #d6d6d3, #787b58); */
+	background-color: #3C3C3C;
 
 }
 
@@ -321,6 +324,7 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background-color: #3C3C3C;
+	border-top: 1px solid white;
 }
 .footer-pcontainer div{
 	width: 400px;

@@ -1,12 +1,15 @@
 @media screen and (max-width: 1300px){
-  .vtopcontainer ul{
+  .vtopcontainer ul,
+  .main-news ul{
     display: flex;
     justify-content: center;
 
   }
-
   .vbigone img{
     width: 65%;
     height: 65%;
+  }
+  .main-news li{
+    margin-bottom: 8px;
   }
 }

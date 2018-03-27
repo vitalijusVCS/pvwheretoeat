@@ -18,8 +18,8 @@
   .main-news ul{
     display: flex;
     justify-content: center;
-
   }
+
   .vbigone {
     width: 300px;
   }
@@ -37,6 +37,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #scrolling{
+    right: 65px;
   }
 
 }

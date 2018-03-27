@@ -401,9 +401,10 @@ box-shadow: 0px 0px 33px 0px rgba(255,252,255,1);
 }
 .idomiausios-naujienos ul {
 	display: flex;
+	flex-wrap: wrap;
 }
 .idomiausios-naujienos li {
-	width: 33%;
+	width: 200px;
 }
 .idomiausios-naujienos img{
 	width: 96%;

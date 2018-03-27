@@ -25,4 +25,16 @@ $( document ).ready(function($) {
 					 document.getElementById("scrolling").style.display = "none";
 			 }
 	 }
+
+	 // window.onscroll = function() {searchFunction()};
+	 // function searchFunction() {
+		// 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		// 			 document.querySelector(".vsearch").style.position = "fixed";
+		// 	 }
+		// 	 else {
+		// 			 document.querySelector(".vsearch").style.display = "none";
+		// 	 }
+	 // }
+
+
 });

@@ -352,4 +352,8 @@
   #vshowmore, #vhide {
     margin-top: 35px;
   }
+
+  #vshowmore h3, #vhide h3 {
+    margin-top: 5px;
+  }
 }

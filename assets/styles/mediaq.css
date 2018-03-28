@@ -28,6 +28,9 @@
   .vbigone{
     width: 440px;
   }
+  .vtopmenu li{
+    padding-right: 15px;
+  }
   .vtop li {
     margin-left: 0;
   }
@@ -48,6 +51,7 @@
   .footer-pcontainer{
     width: 440px;
     padding-left: 0;
+    padding-right: 0;
   }
   .idomiausios-naujienos ul{
     width: 440px;

@@ -162,8 +162,167 @@
   .idomiausios-naujienos li {
     width: 90px;
   }
+}
 
-  
+@media screen and ( max-width: 768px ) {
+  .vbigone {
+    width: 340px;
+    height: 250px;
+  }
 
+  .vsmallone {
+    width: 150px;
+    height: 150px;
+  }
+
+  #ggg .vtop .vsmallone {
+    margin-left: 14px;
+  }
+
+  #ggg .vtop {
+    margin-left: 0;
+  }
+
+  .main-news li p {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  iframe {
+    width: 686px;
+  }
+}
+
+@media screen and ( max-width: 411px ) {
+  iframe {
+    width: 100%;
+  }
+
+  .news-pcontainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-pcontainer {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .icons ul {
+    margin: 0 auto;
+  }
+
+  .icons li {
+    text-align: center;
+  }
+
+  .footer-info ul, .idomiausios-naujienos ul {
+    padding-left: 0;
+    margin: 10px auto;
+  }
+
+  .idomiausios-naujienos p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .pnaujienlaiskis p {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-laiskas ul {
+    margin: 0 auto;
+  }
+
+  .footer-laiskas ul p {
+    width: 100%;
+  }
+
+
+  .footer-laiskas ul {
+    padding-left: 0;
+  }
+
+  .pnaujienlaiskis {
+    width: 100%;
+  }
+
+  .main-news li {
+    width: 45%;
+  }
+
+  .vtopcontainer {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vtop {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  .pdiscription {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vtop li {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .vsmallone {
+    width: 48%;
+  }
+
+  .vbigone {
+    width: 100%;
+  }
+
+  #vshowmore, #vhide {
+    margin-top: 25px;
+  }
+
+  #ggg .vtop .vsmallone {
+    margin-left: 0;
+  }
+
+  #ggg .vtop {
+    margin-top: 10px;
+  }
+
+  #one {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .vlogocontainer {
+    padding-left: 0;
+  }
+
+  .vtopmenucontainer {
+    padding-right: 0;
+  }
+
+  .vtopmenu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .vtopmenu {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .vsearch {
+    padding-top: 90px;
+  }
 
 }

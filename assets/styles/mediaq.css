@@ -1,6 +1,12 @@
 @media screen and (max-width: 1300px){
+  header{
+    width: 440px;
+  }
   .vlogocontainer{
     padding-left: 0;
+  }
+  .vtopmenucontainer{
+    padding-right: 0;
   }
   .vtopcontainer{
     padding-left: 0;

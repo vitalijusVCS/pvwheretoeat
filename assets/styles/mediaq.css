@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px){
+/*@media screen and (max-width: 1300px){
   header{
     width: 440px;
   }
@@ -82,5 +82,88 @@
   .pnaujienlaiskis button{
     width: 360px;
   }
+
+}*/
+
+
+@media screen and ( max-width: 1280px ) {
+  .vsmallone {
+    width: 250px;
+  }
+
+  .vbigone {
+    width: 620px;
+    height: 411px;
+  }
+
+  .main-news li {
+    margin-top: 10px;
+  }
+
+  .main-news ul {
+    margin-top: 0;
+  }
+
+  .social, .footer-info, .footer-laiskas {
+    width: 20%
+  }
+}
+
+@media screen and ( max-width: 1024px ) {
+  .vbigone {
+    width: 450px;
+    height: 379px;
+  }
+
+  .vsmallone {
+    width: 200px;
+  }
+
+  iframe {
+    width: 924px;
+  }
+
+  .main-news li {
+    width: 200px;
+  }
+}
+
+@media screen and ( max-width: 800px ) {
+  iframe {
+    width: 700px;
+  }
+
+  .vbigone {
+    width: 350px;
+    height: 250px;
+  }
+
+  .vsmallone {
+    width: 150px;
+    height: 150px;
+  }
+
+  #ggg .vtop .vsmallone {
+    margin-left: 12px;
+  }
+
+  .main-news li {
+    width: 150px;
+  }
+
+  .icons ul {
+    padding-left: 0;
+  }
+
+  .pnaujienlaiskis input, .pnaujienlaiskis button {
+    width: 100%;
+  }
+
+  .idomiausios-naujienos li {
+    width: 90px;
+  }
+
+  
+
 
 }

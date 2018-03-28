@@ -344,4 +344,8 @@
   .vtopmenucontainer {
     width: 65%;
   }
+
+  .vsearch {
+    padding-top: 70px;
+  }
 }

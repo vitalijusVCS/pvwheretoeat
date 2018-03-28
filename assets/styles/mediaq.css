@@ -326,3 +326,22 @@
   }
 
 }
+
+@media screen and ( max-width: 400px ) {
+  .vtitle {
+    padding-top: 100px;
+  }
+
+  .vtopmenu {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .vlogocontainer {
+    width: 35%;
+  }
+
+  .vtopmenucontainer {
+    width: 65%;
+  }
+}

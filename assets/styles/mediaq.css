@@ -348,4 +348,8 @@
   .vsearch {
     padding-top: 50px;
   }
+
+  #vshowmore, #vhide {
+    margin-top: 35px;
+  }
 }
